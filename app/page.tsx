@@ -1,6 +1,5 @@
 "use client";
-
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import { ArrowRight, Code2 as Github, MessageCircle as Twitter, Briefcase as Linkedin, Mail, ExternalLink, Star, Code, Layers, Zap, Globe, Sparkles, CheckCircle, Terminal, Activity } from 'lucide-react';
@@ -96,7 +95,7 @@ const experience = [
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Chen",
+    name: "Asad Rana",
     role: "CTO at Luminary",
     avatar: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sarah_Chen_%E9%99%88%E6%B7%91%E6%A1%A6_1986_Malaysia_Concert_Live_Photo_Original_%28cropped%29.jpg",
     quote: "Alex delivered a dashboard that our entire team loves. The attention to detail in the interactions and the performance optimizations were beyond what we expected.",
